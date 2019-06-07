@@ -14,13 +14,13 @@ namespace CustomerBase.Infra.Data.Mapping
                .IsRequired();
 
             builder.Property(e => e.Document)
-                .HasColumnType("varchar(150)"); 
+                .HasColumnType("varchar(20)"); 
 
             builder.Property(e => e.Email)
-                .HasColumnType("varchar(max)");
+                .HasColumnType("varchar(150)");
 
             builder.Property(e => e.Phone)
-                .HasColumnType("varchar(150)")
+                .HasColumnType("varchar(20)")
                 .IsRequired();
 
             builder.Property(e => e.Status);
