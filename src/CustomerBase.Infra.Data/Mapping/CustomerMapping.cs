@@ -14,7 +14,7 @@ namespace CustomerBase.Infra.Data.Mapping
                .IsRequired();
 
             builder.Property(e => e.Document)
-                .HasColumnType("varchar(150)");
+                .HasColumnType("varchar(150)"); 
 
             builder.Property(e => e.Email)
                 .HasColumnType("varchar(max)");
